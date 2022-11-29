@@ -2,11 +2,11 @@
 import sys
 import itertools
 
-NP = sys.maxsize
-graphfl = [[0, 7, NO_PATH, 8],
-         [NO_PATH, 0, 5, NO_PATH],
-         [NO_PATH, NO_PATH, 0, 2],
-         [NO_PATH, NO_PATH, NO_PATH, 0]]
+NPATH = sys.maxsize
+graphfl = [[0, 7, NPATH, 8],
+         [NPATH, 0, 5, NPATH],
+         [NPATH, NPATH, 0, 2],
+         [NPATH, NPATH, NPATH, 0]]
 MAXL = len(graphfl[0])
 
 
