@@ -34,19 +34,10 @@ My version is inspired by the main code and other languages
 
 ## Help
 
-Any advise for common problems or issues.
+Online-python has a helper.
 ```
-command to run if program contains helper info
+Try to use different samples with negative weight
 ```
-
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 
 ## License
 
