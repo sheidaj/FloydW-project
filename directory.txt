@@ -1,14 +1,17 @@
-C:.
+https://github.com/sheidaj/FloydW-project.gitignore
+│    .gitignore
 │   LICENSE
 │   README.md
-│   requirements.txt
+│   req.txt
+│   online-python link with code
+│   directory.txt
 │
 ├───codes
-│       floyd_imperative_code.py
-│       floyd_recursive_code.py
+│       floyd_imper_code.py
+│       floyd_recur_code.py
 │
-└───tests
-        test_cases.py
-        test_performance.py
+└───Test
+        Test_sample.py
+        test_sample.py
         test_unit.py
 
