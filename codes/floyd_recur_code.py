@@ -4,9 +4,9 @@ import itertools
 
 NPATH = sys.maxsize
 graphfl = [[0, 7, NPATH, 8],
-         [NPATH, 0, 5, NPATH],
-         [NPATH, NPATH, 0, 2],
-         [NPATH, NPATH, NPATH, 0]]
+          [NPATH, 0, 5, NPATH],
+          [NPATH, NPATH, 0, 2],
+          [NPATH, NPATH, NPATH, 0]]
 MAXL = len(graphfl[0])
 
 
@@ -18,17 +18,16 @@ def floyd(dist):
     in itertools.product(range(MAXL), range(MAXL),
                          range(MAXL)):
 
-        # Assume that if start_node and end_node are the same
+        # Assume that if the initial node and end node are the same
         # then the distance would be zero
         if begin == end:
             dist[begin][end] = 0
             continue
 
-        # return all possible paths and find the minimum
+        # return all possible paths and find the minimum route
         dist[begin][end] = min(dist[begin][end],
-                                             dist[begin]
-                                                     [mid] +
-                                             dist[mid][end])
+                               dist[begin][mid] +
+                               dist[mid][end])
 
     # Any value that have sys.maxsize has no path
     print(dist)
