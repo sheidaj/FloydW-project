@@ -10,25 +10,25 @@ EduLearn also explained in simple way how to start coding.
 ## Getting Started
 
 I used the imperative code from (https://github.com/sheidaj/Re-write/blob/main/FloydAlgorithm%20-%20Imperative.pdf)
-The first assumption in this project is 
+My version is inspired by the main code and other languages 
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* As I used (https://www.online-python.com/) not special dependecy is required. 
+* To run each code open a new unit test and save with the name of the code.
+* This will help to save time installation and it can also be run on tablets.
 
 ### Installing
 
-* I used replit.com
-* Any modifications needed to be made to files/folders
+* I used online-python and the minimum requirement is a browswer. 
+* As long as the previous code is saved and open you can run the test and performance code.
+* My version of codes are saved in the codes folder. The thirds code is been provided- read the comment
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Copy the code and paste them on online-python.
+* Adjust the line and the space between the function to run properly.
+* Open a new tab and paste a new code.
 
 ## Help
 
