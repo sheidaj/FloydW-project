@@ -26,10 +26,9 @@ def floyd(dist):
 
         # return all possible paths and find the minimum
         dist[begin][end] = min(dist[begin][end],
-                                             dist[begin]
-                                                     [mid] +
-                                             dist[mid][end])
+                               dist[begin][mid] +
+                               dist[mid][end])
 
-    # Any value that have sys.maxsize has no path
+    #Any value that have sys.maxsize has no path
     print(dist)
 floyd(graphfl)
