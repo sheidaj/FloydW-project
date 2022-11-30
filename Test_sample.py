@@ -3,14 +3,14 @@ import unittest
 import sys
 
 
-from floyd_recur_code import shorttpath
+from floyd_recur_code import shortpath
 from floyd_recur_code import floyd
 
 
 # Test the main Recursive function
-class ShortpathSample(unittest.Sample):
+class testpathSample(unittest.TestCase):
 
-    def test_to_shortpath_function(self):
+    def test_shortpath_function(self):
         NPATH = sys.maxsize
         graphfl = [[0, 7, NPATH, 8],
                  [NPATH, 0, 5, NPATH],
@@ -21,7 +21,7 @@ class ShortpathSample(unittest.Sample):
 
 
 # Test the Floyd function known as FLW
-class FloydOutputTest(unittest.Testn):
+class ResultTest(unittest.TestCase):
 
     def test_flw_function(self):
         NPATH = sys.maxsize
