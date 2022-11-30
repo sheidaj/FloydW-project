@@ -17,6 +17,7 @@ My version is inspired by the main code and other languages
 * As I used (https://www.online-python.com/) not special dependecy is required. 
 * To run each code open a new unit test and save with the name of the code.
 * This will help to save time installation and it can also be run on tablets.
+* For the python users some files listed on gitignore.
 
 ### Installing
 
@@ -29,6 +30,7 @@ My version is inspired by the main code and other languages
 * Copy the code and paste them on online-python.
 * Adjust the line and the space between the function to run properly.
 * Open a new tab and paste a new code.
+* Keep the tabs open when you want to run the Test_sample
 
 ## Help
 
