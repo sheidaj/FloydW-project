@@ -2,6 +2,7 @@
 import sys
 import itertools
 
+"
 NPATH = sys.maxsize
 graphfl = [[0, 7, NPATH, 8],
           [NPATH, 0, 5, NPATH],
