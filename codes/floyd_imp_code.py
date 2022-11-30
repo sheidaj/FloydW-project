@@ -1,8 +1,9 @@
 #labeles are changed from FLW algorithm
+
 import sys
 import itertools
 
-"
+
 NPATH = sys.maxsize
 graphfl = [[0, 7, NPATH, 8],
           [NPATH, 0, 5, NPATH],
@@ -15,7 +16,8 @@ def floyd(dist):
     """
     A simple implementation of Floyd's algorithm
     """
-    for mid, begin, end
+    
+    for mid, begin, end 
     in itertools.product(range(MAXL), range(MAXL),
                          range(MAXL)):
 
