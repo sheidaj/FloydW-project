@@ -19,7 +19,7 @@ The first assumption in this project is
 
 ### Installing
 
-* How/where to download your program
+* I used replit.com
 * Any modifications needed to be made to files/folders
 
 ### Executing program
