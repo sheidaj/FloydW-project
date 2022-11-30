@@ -4,9 +4,9 @@ import itertools
 
 NPATH = sys.maxsize
 graphfl = [[0, 7, NPATH, 8],
-         [NPATH, 0, 5, NPATH],
-         [NPATH, NPATH, 0, 2],
-         [NPATH, NPATH, NPATH, 0]]
+          [NPATH, 0, 5, NPATH],
+          [NPATH, NPATH, 0, 2],
+          [NPATH, NPATH, NPATH, 0]]
 MAXL = len(graphfl[0])
 
 
