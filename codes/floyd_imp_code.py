@@ -1,4 +1,4 @@
-#labeles are changed from FLW algorithm
+#lables are changed from FLW algorithm
 
 import sys
 import itertools
