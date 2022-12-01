@@ -1,4 +1,4 @@
-#lables are changed from FLW algorithm
+#Python3 FLW algorithm with imperative function
 
 import sys
 import itertools
