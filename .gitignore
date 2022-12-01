@@ -1,8 +1,7 @@
-*sys
-*os
-*itertools 
-*__pycache__/
+*.sys
+*.os
+*.itertools 
 *.pyc
 *.egg-info
-/.tox
+*.tox
 
