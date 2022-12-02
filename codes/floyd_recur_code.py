@@ -10,7 +10,7 @@ graphfl = [[0, 7, NPATH, 8], [NPATH, 0, 5, NPATH],
            [NPATH, NPATH, NPATH, 0]]
 MAXL = len(graphfl[0])
 
-# New function introduced here to claculate 
+# New function introduced here to calculate 
 # the shortest distance using a recursive function
 # 
 def shortpath (begin, end, mid, dist):
