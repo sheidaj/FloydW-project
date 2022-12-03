@@ -51,7 +51,7 @@ class ResultTest(unittest.TestCase):
                    [NPATH, NPATH, 0, 2],
                    [NPATH, NPATH, NPATH, 0]]
         with self.assertRaises(TypeError):
-            result = shorttpath(0, 1, 3, graphfl)
+            result = shortpath(0, 1, 3, graphfl)
 
  
     # Test non-exist node
