@@ -81,7 +81,7 @@ class ResultTest(unittest.TestCase):
         result = shortpath(0, 0, 0, graphfl)
         self.assertEqual(result, 0)         
             
- # Import samples test cases
+# Import samples test cases
 from Samples import (sample_a, sample_b, sample_c)
 
 # Unit Tests
