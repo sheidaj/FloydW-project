@@ -1,7 +1,7 @@
 # Test samples for Floyd Warshall Function
 
-""" This file contains four different samples for the Floyd Warshall
-algorithm function.
+""" This file contains four different samples for 
+the Floyd Warshall algorithm function.
 """
 
 # Use value for infinity to denote edges that do not exist
