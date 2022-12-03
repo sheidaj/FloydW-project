@@ -12,5 +12,6 @@ https://github.com/sheidaj/FloydW-project.gitignore
 └───Test
         Test_sample.py
         Comparing_performance.py
+        sample_performance.py
         Samples.py
 
