@@ -3,7 +3,6 @@ https://github.com/sheidaj/FloydW-project.gitignore
 │   LICENSE
 │   README.md
 │   req.txt
-│   online-python link with code
 │   directory.txt
 │
 ├───codes
