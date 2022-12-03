@@ -7,8 +7,8 @@ import a function from another file in the same directory
 """
 
 # Import the shortpath and floyd function
-from floyd_recur_code import shortpath
-from floyd_recur_code import floyd
+from codes.floyd_recur_code import shortpath
+from codes.floyd_recur_code import floyd
 
 
 # Test the main finding the shortest path function
@@ -74,6 +74,8 @@ class ResultTest(unittest.TestCase):
         with self.assertRaises(IndexError):
             result = shortpath(0, 1, 4, graphfl)
 
+# Import samples test cases
+from Samples import (sample_a, sample_b, sample_c)
 
 # Unit Tests
 class TestFloyd(unittest.TestCase):
@@ -90,3 +92,5 @@ class TestFloyd(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+  
