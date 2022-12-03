@@ -12,7 +12,7 @@ MAXL = len(graphfl[0])
 
 # New function introduced here to calculate 
 # the shortest distance using a recursive function
-# 
+
 def shortpath (begin, end, mid, dist):
     """
     An implementation of Floyd's algorithm using recursion
@@ -24,13 +24,13 @@ def shortpath (begin, end, mid, dist):
         
  # Return the min between two paths with a different nodes,
  # compares the distance of any possible paths, direct or
- # indirect path include middle node
+ # indirect path include the middle node
 
     return min(shortpath(begin, end, mid - 1, dist), 
                shortpath(begin, mid, mid - 1, dist) + 
                shortpath(mid, end, mid - 1, dist))
 
-# This function is followed from the imperative function code
+# This function is followed from the algorithm implementation
 
 def floyd(dist): 
     # Calculate the possible route combinations
@@ -49,5 +49,7 @@ def floyd(dist):
 if __name__ == '__main__':
     #When all conditions been checked
     # Calls the function floyd and passes the definition of graph
+    
+    #Print graph solution
     print(floyd(graphfl))
 
