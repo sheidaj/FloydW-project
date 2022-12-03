@@ -3,7 +3,7 @@
 import sys
 import itertools
 
-
+#Npath is no direct path
 NPATH = sys.maxsize
 graphfl = [[0, 7, NPATH, 8],
           [NPATH, 0, 5, NPATH],
@@ -32,6 +32,6 @@ def floyd(dist):
                                dist[begin][mid] +
                                dist[mid][end])
 
-    #Any value that have sys.maxsize has no path
+    #Print the graph solution
     print(dist)
 floyd(graphfl)
