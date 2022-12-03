@@ -4,8 +4,7 @@ This project is the steps to rewrite the Floyd Warshall Algorithm using Recursio
 
 ## How to begin
 
-To understand the function of the algorithm, you can read the Floyd Warshall Algorithm wikipedia. 
-EduLearn also explained in simple way how to start coding.
+Understanding of the Floyd Warshall Algorithm. Read the acknowledment section
 
 ## Getting Started
 
@@ -18,6 +17,7 @@ My version is inspired by the main code and other languages
 * To run each code open a new unit test and save with the name of the code.
 * This will help to save time installation and it can also be run on tablets.
 * For the python users some files listed on gitignore.
+* Python3, check the import funtion and read the code directory.
 
 ### Installing
 
@@ -36,7 +36,7 @@ My version is inspired by the main code and other languages
 
 Online-python has a helper.
 ```
-Try to use different samples with negative weight
+Try to use different samples with negative weight for the testunit
 ```
 
 ## License
@@ -50,4 +50,5 @@ Inspiration, code snippets, etc.
 * [Imeprative code](https://replit.com/@sheidaj/FLW-project#floyd_imperative_code.py)
 * [Wiki](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
 * [EduLearn](https://edulearn96.blogspot.com/2020/)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Inspired Python code](https://gist.github.com/fvcproductions/1bfc2d4aecb01a83446](https://www.programiz.com/dsa/floyd-warshall-algorithm))
+* []
