@@ -3,12 +3,12 @@ import unittest
 import sys
 
 """
-import a function from another file in the same directory
+import a function from another file in the same directory 
 """
 
 # Import the shortpath and floyd function
-from codes.floyd_recur_code import shortpath
-from codes.floyd_recur_code import floyd
+from floyd_recur_code import shortpath
+from floyd_recur_code import floyd
 
 
 # Test the main finding the shortest path function
@@ -74,23 +74,12 @@ class ResultTest(unittest.TestCase):
         with self.assertRaises(IndexError):
             result = shortpath(0, 1, 4, graphfl)
 
-# Import samples test cases
-from Samples import (sample_a, sample_b, sample_c)
-
-# Unit Tests
-class TestFloyd(unittest.TestCase):
-
-    def test_floyda(self):
-        self.assertEqual(floyd(sample_a), output_a, "Incorrect Output")
-
-    def test_floydb(self):
-        self.assertEqual(floyd(sample_b), output_b, "Incorrect Output")
-
-    def test_floydc(self):
-        self.assertEqual(floyd(sample_c), output_c, "Incorrect Output")
-
-
-if __name__ == '__main__':
-    unittest.main()
-
+   # Testing a use case where there is only one node
+    def test_onenode(self):
+        NPATH = sys.maxsize
+        graphfl = [[0]]
+        result = shortpath(0, 0, 0, graphfl)
+        self.assertEqual(result, 0)         
+            
+          
   
