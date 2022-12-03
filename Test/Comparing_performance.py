@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# Compare between the imperative and recursive
 
 import sys
 import time
@@ -11,12 +11,10 @@ import floyd_recur_code
 def compare_performance():
     # helper script
     NPATH = sys.maxsize
-    graphfl = [
-        [0, 7, NPATH, 8],
-        [NPATH, 0, 5, NPATH],
-        [NPATH, NPATH, 0, 2],
-        [NPATH, NPATH, NPATH, 0],
-    ]
+    graphfl = [[0, 7, NPATH, 8],
+               [NPATH, 0, 5, NPATH],
+               [NPATH, NPATH, 0, 2],
+               [NPATH, NPATH, NPATH, 0]]
 
     record_ing = time.time()
     for _ in range(2**12):
