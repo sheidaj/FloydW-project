@@ -81,5 +81,22 @@ class ResultTest(unittest.TestCase):
         result = shortpath(0, 0, 0, graphfl)
         self.assertEqual(result, 0)         
             
-          
+ # Import samples test cases
+from Samples import (sample_a, sample_b, sample_c)
+
+# Unit Tests
+class TestFloyd(unittest.TestCase):
+
+    def test_floyda(self):
+        self.assertEqual(floyd(sample_a), output_a, "Incorrect Output")
+
+    def test_floydb(self):
+        self.assertEqual(floyd(sample_b), output_b, "Incorrect Output")
+
+    def test_floydc(self):
+        self.assertEqual(floyd(sample_c), output_c, "Incorrect Output")
+
+
+if __name__ == '__main__':
+    unittest.main()       
   
