@@ -14,7 +14,7 @@ Availability: https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
 """
 sample_a = [[0, 5, INF, 10],
             [INF, 0, 3, INF],
-            [INF, INF, 0,   1],
+            [INF, INF, 0, 1],
             [INF, INF, INF, 0]]
 
 output_a = [[0, 5, 8, 9],
